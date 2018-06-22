@@ -16,11 +16,11 @@ export class RecentSubmissionsComponent implements OnInit {
 
     initSubmissions() {
         this.submissions = [
-            { name: 'John', email: 'john@angular5-starter-multi-module.com' },
-            { name: 'Samantha', email: 'sam@angular5-starter-multi-module.com' },
-            { name: 'Cassandra', email: 'cass@angular5-starter-multi-module.com' },
-            { name: 'Taylor', email: 'taylor@angular5-starter-multi-module.com' },
-            { name: 'Fatima', email: 'fatima@angular5-starter-multi-module.com' }
+            { name: 'John', email: 'john@angular6-starter-multi-module.com' },
+            { name: 'Samantha', email: 'sam@angular6-starter-multi-module.com' },
+            { name: 'Cassandra', email: 'cass@angular6-starter-multi-module.com' },
+            { name: 'Taylor', email: 'taylor@angular6-starter-multi-module.com' },
+            { name: 'Fatima', email: 'fatima@angular6-starter-multi-module.com' }
         ]
     }
 

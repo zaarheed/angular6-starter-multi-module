@@ -1,20 +1,23 @@
-# Angular 5 Starter (Multi-module)
+# Angular 6 Starter (Multi-module)
 
-A starter template for Angular 5 applications with multiple modules.
+A starter template for Angular 6 applications with multiple modules.
 
 ## Requirements
 
-- Angular CLI v1.5.0
-- Angular v5.1.0
-- Typescript v2.4.2
+- Angular CLI v6.0.8
+- Angular v6.0.6
+- Typescript v2.9.1
 
 # Demo
-View a demo of the application [here](https://zuperm4n.github.io/angular5-starter-multi-module).
+View a demo of the application [here](https://zuperm4n.github.io/angular6-starter-multi-module).
 
 You can run a local demo by cloning this repo, running `npm install`, `ng serve` and then pointing your browser to `http://localhost:4200`.
 
 # Documentation
 Read more about the architecture [here](https://www.technouz.com/4644/angular-5-app-structure-multiple-modules/).
+
+# Angular 5
+This is a copy, and improvement, of my [Angular 5 Multi Module Starter](https://github.com/zuperm4n/angular5-starter-multi-module).
 
 ### FormModule
 The `FormModule` represents a publicly accessible module which is lazy-loaded when the application is executed. There is no authorization required to view any of the pages or components within the `FormModule`. In a real-world application, the `FormModule` can be replaced with the core of the website which can be accessed by anyone - such as the homepage.
@@ -43,9 +46,6 @@ For a more detailed explanation on the architectural decisions made in this desi
 - Authentication guard example
 - Shared directive example
 
-# Upgrading to Angular 6
-I have created a separate [GitHub repo for an Angular 6 Multi-Module Starter](https://github.com/zuperm4n/angular6-starter-multi-module/pull/1) for those who want a fresh template with the latest features (NgRx, feature toggles etc).
-
 The steps below will allow you to upgrade any projects based from this starter template:
 
 1. Switch from `HttpModule` and the `Http` service to `HttpClientModule` and the `HttpClient` service.
@@ -70,5 +70,5 @@ The steps below will allow you to upgrade any projects based from this starter t
 
 # Updating the demo
 1. Install angular-cli-ghpages by running the command `npm install -g angular-cli-ghpages`
-2. Build the Angular app and set the base-href by running the command: `ng build --prod --base-href "https://zuperm4n.github.io/angular5-starter-multi-module"`
+2. Build the Angular app and set the base-href by running the command: `ng build --prod --base-href "https://zuperm4n.github.io/angular6-starter-multi-module"`
 3. Deploy to GitHub.io by running the `angular-cli-ghpages` tool (shorthand: `ngh`)
